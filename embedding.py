@@ -62,7 +62,7 @@ def generate_chat_answer(question: str, contexts: Iterable[dict]) -> str:
     )
 
     system_prompt = f"""
-너는 실패 사례 기반 상담 챗봇이야.
+너는 실패 사례 기반 상담 챗봇이다.
 
 [답변 규칙]
 1. 반드시 아래 [관련 실패 사례]에 근거해서 답변한다.
