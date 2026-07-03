@@ -1,0 +1,16 @@
+{
+  "recommendations": [
+    {
+      "failureId": 2,
+      "title": "기말고사 시간 부족",
+      "category": "STUDY",
+      "situation": "기말고사에서 시간 배분을 못해서 뒷부분 문제를 거의 풀지 못했다.",
+      "choice": "처음부터 어려운 문제를 붙잡고 오래 고민했다.",
+      "cause": "문제 난이도를 먼저 훑어보지 않고 순서대로만 풀었다.",
+      "nextAction": "시험 시작 후 전체 문제를 빠르게 확인하고 쉬운 문제부터 해결한다.",
+      "writer": "성공기록",
+      "createdAt": null,
+      "similarity": 0.8123
+    }
+  ]
+}
