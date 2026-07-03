@@ -67,8 +67,9 @@ def to_recommendation(case: dict[str, Any], similarity: float | None = None) -> 
         "title": case.get("title", ""),
         "category": case.get("category", ""),
         "situation": case.get("situation") or case.get("content", ""),
-        "choice": case.get("choice") or case.get("cause", ""),
-        "emotion": case.get("emotion", ""),
+        "choice": case.get("choice", ""),
+        "cause": case.get("cause", ""),
+        "nextAction": case.get("nextAction", ""),
         "writer": case.get("writer", ""),
         "createdAt": case.get("createdAt"),
     }

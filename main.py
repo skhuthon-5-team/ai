@@ -15,7 +15,8 @@ class FailureItem(BaseModel):
     category: str = Field(..., min_length=1)
     situation: str = Field(..., min_length=1)
     choice: str = Field(..., min_length=1)
-    emotion: str | None = None
+    cause: str | None = None
+    nextAction: str | None = None
     writer: str | None = None
     createdAt: str | None = None
     updatedAt: str | None = None
